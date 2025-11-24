@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مساعد أبشر الذكي - Absher Smart Assistant</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+        * {
+            font-family: 'IBM Plex Sans Arabic', system-ui, -apple-system, sans-serif;
+        }
+        
+        /* تخصيص شريط التمرير */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #0d9488;
+            border-radius: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0f766e;
+        }
+        
+        /* تأثيرات للرسائل */
+        .message-enter {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        
+        .message-enter-active {
+            opacity: 1;
+            transform: translateY(0);
+            transition: opacity 300ms, transform 300ms;
+        }
+        
+        /* تأثيرات للأزرار */
+        .btn-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-hover:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-br from-emerald-50 to-teal-50">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useRef, useEffect } = React;
+        
+        // إنشاء أيقونات SVG يدوياً
+        const SendIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        }, 
+            React.createElement('line', { x1: 22, y1: 2, x2: 11, y2: 13 }),
+            React.createElement('polygon', { points: '22,2 15,22 11,13 2,9' })
+        );
+        
+        const PaperclipIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('path', { d: 'm21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48' })
+        );
+        
+        const CheckCircleIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('path', { d: 'M22 11.08V12a10 10 0 1 1-5.93-9.14' }),
+            React.createElement('polyline', { points: '22,4 12,14.01 9,11.01' })
+        );
+        
+        const XCircleIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('circle', { cx: 12, cy: 12, r: 10 }),
+            React.createElement('line', { x1: 15, y1: 9, x2: 9, y2: 15 }),
+            React.createElement('line', { x1: 9, y1: 9, x2: 15, y2: 15 })
+        );
+        
+        const AlertCircleIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('circle', { cx: 12, cy: 12, r: 10 }),
+            React.createElement('line', { x1: 12, y1: 8, x2: 12, y2: 12 }),
+            React.createElement('line', { x1: 12, y1: 16, x2: 12.01, y2: 16 })
+        );
+        
+        const FileTextIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('path', { d: 'M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z' }),
+            React.createElement('polyline', { points: '14,2 14,7 19,7' }),
+            React.createElement('line', { x1: 16, y1: 13, x2: 8, y2: 13 }),
+            React.createElement('line', { x1: 16, y1: 17, x2: 8, y2: 17 }),
+            React.createElement('polyline', { points: '10,9 9,9 8,9' })
+        );
+        
+        const BellIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('path', { d: 'M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9' }),
+            React.createElement('path', { d: 'M13.73 21a2 2 0 0 1-3.46 0' })
+        );
+        
+        const UserIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('path', { d: 'M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2' }),
+            React.createElement('circle', { cx: 12, cy: 7, r: 4 })
+        );
+        
+        const BotIcon = () => React.createElement('svg', {
+            width: 20,
+            height: 20,
+            viewBox: '0 0 24 24',
+            fill: 'none',
+            stroke: 'currentColor',
+            strokeWidth: 2,
+            strokeLinecap: 'round',
+            strokeLinejoin: 'round'
+        },
+            React.createElement('rect', { x: 3, y: 11, width: 18, height: 10, rx: 2 }),
+            React.createElement('circle', { cx: 12, cy: 5, r: 2 }),
+            React.createElement('path', { d: 'M12 7v4' }),
+            React.createElement('line', { x1: 8, y1: 16, x2: 8, y2: 16 }),
+            React.createElement('line', { x1: 16, y1: 16, x2: 16, y2: 16 })
+        );
+
+        const AbsherChat = () => {
+            const [messages, setMessages] = useState([
+                {
+                    id: 1,
+                    type: 'bot',
+                    content: 'مرحباً بك في مساعد أبشر الذكي. أنا هنا لمساعدتك في الاستعلام عن بياناتك الحكومية والاستحقاقات والدعم المتاح لك.',
+                    timestamp: new Date()
+                },
+                {
+                    id: 2,
+                    type: 'bot',
+                    content: 'Welcome to Absher Smart Assistant. I\'m here to help you check your government data, entitlements, and available support.',
+                    timestamp: new Date()
+                }
+            ]);
+            const [inputText, setInputText] = useState('');
+            const [isTyping, setIsTyping] = useState(false);
+            const messagesEndRef = useRef(null);
+
+            const scrollToBottom = () => {
+                messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+            };
+
+            useEffect(() => {
+                scrollToBottom();
+            }, [messages]);
+
+            const quickActions = [
+                { id: 1, text: 'حالة الاستحقاقات', textEn: 'Check Entitlements', icon: CheckCircleIcon },
+                { id: 2, text: 'تقديم طلب دعم', textEn: 'Apply for Support', icon: FileTextIcon },
+                { id: 3, text: 'الإشعارات', textEn: 'Notifications', icon: BellIcon },
+                { id: 4, text: 'الملف الشخصي', textEn: 'My Profile', icon: UserIcon },
+            ];
+
+            const handleSend = () => {
+                if (!inputText.trim()) return;
+
+                const newMessage = {
+                    id: messages.length + 1,
+                    type: 'user',
+                    content: inputText,
+                    timestamp: new Date()
+                };
+
+                setMessages([...messages, newMessage]);
+                setInputText('');
+                setIsTyping(true);
+
+                // محاكاة استجابة البوت
+                setTimeout(() => {
+                    const responses = [
+                        "شكراً لاستفسارك. لقد استلمت طلبك وأعمل على معالجته الآن.",
+                        "تم استلام رسالتك بنجاح. أقوم بالبحث في قاعدة البيانات للحصول على المعلومات المطلوبة.",
+                        "أفهم استفسارك. دعني أتحقق من السجلات الحكومية ذات الصلة وأعود إليك بالمعلومات.",
+                        "شكراً لتواصلك مع مساعد أبشر. أبحث عن المعلومات المناسبة لطلبك."
+                    ];
+                    
+                    const randomResponse = responses[Math.floor(Math.random() * responses.length)];
+                    
+                    const botResponse = {
+                        id: messages.length + 2,
+                        type: 'bot',
+                        content: randomResponse,
+                        timestamp: new Date()
+                    };
+                    setMessages(prev => [...prev, botResponse]);
+                    setIsTyping(false);
+                }, 1500);
+            };
+
+            const handleQuickAction = (action) => {
+                const actionMessage = {
+                    id: messages.length + 1,
+                    type: 'user',
+                    content: action.text,
+                    timestamp: new Date()
+                };
+
+                setMessages([...messages, actionMessage]);
+                setIsTyping(true);
+
+                setTimeout(() => {
+                    let botResponse;
+                    if (action.id === 1) {
+                        botResponse = {
+                            id: messages.length + 2,
+                            type: 'bot',
+                            content: '',
+                            timestamp: new Date(),
+                            isStatusCard: true,
+                            statusData: {
+                                title: 'حالة الاستحقاقات الخاصة بك',
+                                titleEn: 'Your Entitlements Status',
+                                items: [
+                                    { name: 'دعم حساب المواطن', nameEn: 'Citizen Account Support', status: 'approved', amount: '1,200 ريال' },
+                                    { name: 'دعم السكن', nameEn: 'Housing Support', status: 'pending', reason: 'قيد المراجعة' },
+                                    { name: 'دعم الأسر المنتجة', nameEn: 'Productive Families Support', status: 'rejected', reason: 'عدم استيفاء الشروط' },
+                                    { name: 'بدل بطالة', nameEn: 'Unemployment Allowance', status: 'approved', amount: '900 ريال' }
+                                ]
+                            }
+                        };
+                    } else if (action.id === 2) {
+                        botResponse = {
+                            id: messages.length + 2,
+                            type: 'bot',
+                            content: 'يمكنني مساعدتك في تقديم طلب دعم. يرجى زيارة قسم "الخدمات الإلكترونية" في تطبيق أبشر أو الموقع الإلكتروني لتقديم الطلب. هل تحتاج إلى مساعدة في تحديد نوع الدعم المناسب لك؟',
+                            timestamp: new Date()
+                        };
+                    } else if (action.id === 3) {
+                        botResponse = {
+                            id: messages.length + 2,
+                            type: 'bot',
+                            content: 'لديك 3 إشعارات جديدة:\n- تجديد الهوية الوطنية: مطلوب خلال 30 يوم\n- تحديث بيانات: يرجى مراجعة معلوماتك\n- استحقاق دعم: تمت الموافقة على طلبك',
+                            timestamp: new Date()
+                        };
+                    } else {
+                        botResponse = {
+                            id: messages.length + 2,
+                            type: 'bot',
+                            content: 'الملف الشخصي:\n- الاسم: أحمد محمد\n- الحالة: مواطن\n- رقم الهوية: 1**********\n- الحالة الاجتماعية: أعزب\n- آخر تحديث: 2024',
+                            timestamp: new Date()
+                        };
+                    }
+                    setMessages(prev => [...prev, botResponse]);
+                    setIsTyping(false);
+                }, 2000);
+            };
+
+            const StatusIcon = ({ status }) => {
+                if (status === 'approved') return React.createElement(CheckCircleIcon);
+                if (status === 'rejected') return React.createElement(XCircleIcon);
+                return React.createElement(AlertCircleIcon);
+            };
+
+            return React.createElement('div', { className: 'flex flex-col h-screen bg-gradient-to-br from-emerald-50 to-teal-50', dir: 'rtl' },
+                // Header
+                React.createElement('div', { className: 'bg-gradient-to-r from-emerald-600 to-teal-600 text-white p-4 shadow-lg' },
+                    React.createElement('div', { className: 'max-w-4xl mx-auto flex items-center justify-between' },
+                        React.createElement('div', { className: 'flex items-center gap-3' },
+                            React.createElement('div', { className: 'bg-white/20 p-2 rounded-lg backdrop-blur-sm' },
+                                React.createElement(BotIcon)
+                            ),
+                            React.createElement('div', null,
+                                React.createElement('h1', { className: 'text-xl font-bold' }, 'مساعد أبشر الذكي'),
+                                React.createElement('p', { className: 'text-sm text-emerald-100' }, 'Absher Smart Assistant')
+                            )
+                        ),
+                        React.createElement('div', { className: 'flex items-center gap-2' },
+                            React.createElement('div', { className: 'w-2 h-2 bg-green-300 rounded-full animate-pulse' }),
+                            React.createElement('span', { className: 'text-sm' }, 'متصل')
+                        )
+                    )
+                ),
+
+                // Messages Area
+                React.createElement('div', { className: 'flex-1 overflow-y-auto p-4 space-y-4 max-w-4xl mx-auto w-full' },
+                    messages.map((message) =>
+                        React.createElement('div', {
+                            key: message.id,
+                            className: `flex gap-3 ${message.type === 'user' ? 'flex-row-reverse' : 'flex-row'}`
+                        },
+                            React.createElement('div', {
+                                className: `flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center ${
+                                    message.type === 'user' 
+                                        ? 'bg-gradient-to-br from-blue-500 to-blue-600' 
+                                        : 'bg-gradient-to-br from-emerald-500 to-teal-500'
+                                }`
+                            },
+                                message.type === 'user' 
+                                    ? React.createElement(UserIcon, { className: 'w-5 h-5 text-white' })
+                                    : React.createElement(BotIcon, { className: 'w-5 h-5 text-white' })
+                            ),
+                            
+                            React.createElement('div', {
+                                className: `flex-1 max-w-xl ${message.type === 'user' ? 'text-right' : 'text-left'}`
+                            },
+                                message.isStatusCard 
+                                    ? React.createElement('div', { className: 'bg-white rounded-2xl shadow-lg p-5 space-y-4 border border-emerald-100' },
+                                        React.createElement('div', { className: 'border-b pb-3' },
+                                            React.createElement('h3', { className: 'font-bold text-lg text-gray-800' }, message.statusData.title),
+                                            React.createElement('p', { className: 'text-sm text-gray-500' }, message.statusData.titleEn)
+                                        ),
+                                        
+                                        React.createElement('div', { className: 'space-y-3' },
+                                            message.statusData.items.map((item, idx) =>
+                                                React.createElement('div', {
+                                                    key: idx,
+                                                    className: 'bg-gray-50 rounded-xl p-4 hover:bg-gray-100 transition-colors duration-200 border border-gray-200'
+                                                },
+                                                    React.createElement('div', { className: 'flex items-start justify-between gap-3' },
+                                                        React.createElement('div', { className: 'flex-1' },
+                                                            React.createElement('div', { className: 'flex items-center gap-2 mb-1' },
+                                                                React.createElement(StatusIcon, { status: item.status }),
+                                                                React.createElement('h4', { className: 'font-semibold text-gray-800' }, item.name)
+                                                            ),
+                                                            React.createElement('p', { className: 'text-sm text-gray-500 mb-2' }, item.nameEn),
+                                                            item.amount && React.createElement('p', { className: 'text-emerald-600 font-bold' }, item.amount),
+                                                            item.reason && React.createElement('p', { className: 'text-sm text-gray-600 mt-1' }, item.reason)
+                                                        ),
+                                                        React.createElement('span', {
+                                                            className: `px-3 py-1 rounded-full text-xs font-medium ${
+                                                                item.status === 'approved' ? 'bg-green-100 text-green-700' :
+                                                                item.status === 'rejected' ? 'bg-red-100 text-red-700' :
+                                                                'bg-yellow-100 text-yellow-700'
+                                                            }`
+                                                        },
+                                                            item.status === 'approved' ? 'مقبول' :
+                                                            item.status === 'rejected' ? 'مرفوض' : 'قيد المراجعة'
+                                                        )
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    )
+                                    : React.createElement('div', {
+                                        className: `rounded-2xl px-5 py-3 shadow-md ${
+                                            message.type === 'user' 
+                                                ? 'bg-gradient-to-br from-blue-500 to-blue-600 text-white' 
+                                                : 'bg-white text-gray-800 border border-gray-200'
+                                        }`
+                                    },
+                                        React.createElement('p', { className: 'leading-relaxed whitespace-pre-line' }, message.content),
+                                        React.createElement('p', {
+                                            className: `text-xs mt-2 ${
+                                                message.type === 'user' ? 'text-blue-100' : 'text-gray-400'
+                                            }`
+                                        }, message.timestamp.toLocaleTimeString('ar-SA', { hour: '2-digit', minute: '2-digit' }))
+                                    )
+                            )
+                        )
+                    ),
+
+                    isTyping && React.createElement('div', { className: 'flex gap-3' },
+                        React.createElement('div', {
+                            className: 'flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center'
+                        },
+                            React.createElement(BotIcon, { className: 'w-5 h-5 text-white' })
+                        ),
+                        React.createElement('div', { className: 'bg-white rounded-2xl px-5 py-3 shadow-md border border-gray-200' },
+                            React.createElement('div', { className: 'flex gap-1' },
+                                React.createElement('div', { className: 'w-2 h-2 bg-gray-400 rounded-full animate-bounce' }),
+                                React.createElement('div', { 
+                                    className: 'w-2 h-2 bg-gray-400 rounded-full animate-bounce',
+                                    style: { animationDelay: '0.1s' }
+                                }),
+                                React.createElement('div', { 
+                                    className: 'w-2 h-2 bg-gray-400 rounded-full animate-bounce',
+                                    style: { animationDelay: '0.2s' }
+                                })
+                            )
+                        )
+                    ),
+                    
+                    React.createElement('div', { ref: messagesEndRef })
+                ),
+
+                // Quick Actions
+                React.createElement('div', { className: 'bg-white/80 backdrop-blur-sm border-t p-3 border-gray-200' },
+                    React.createElement('div', { className: 'max-w-4xl mx-auto' },
+                        React.createElement('div', { className: 'flex gap-2 overflow-x-auto pb-2' },
+                            quickActions.map((action) =>
+                                React.createElement('button', {
+                                    key: action.id,
+                                    onClick: () => handleQuickAction(action),
+                                    className: 'flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-full hover:from-emerald-600 hover:to-teal-600 transition-all shadow-md hover:shadow-lg whitespace-nowrap btn-hover'
+                                },
+                                    React.createElement(action.icon, { className: 'w-4 h-4' }),
+                                    React.createElement('span', { className: 'text-sm font-medium' }, action.text)
+                                )
+                            )
+                        )
+                    )
+                ),
+
+                // Input Area
+                React.createElement('div', { className: 'bg-white border-t p-4 shadow-lg border-gray-200' },
+                    React.createElement('div', { className: 'max-w-4xl mx-auto flex gap-3 items-center' },
+                        React.createElement('button', {
+                            className: 'p-3 text-gray-500 hover:text-emerald-600 hover:bg-emerald-50 rounded-full transition-colors duration-200 btn-hover border border-gray-300'
+                        },
+                            React.createElement(PaperclipIcon)
+                        ),
+                        
+                        React.createElement('input', {
+                            type: 'text',
+                            value: inputText,
+                            onChange: (e) => setInputText(e.target.value),
+                            onKeyPress: (e) => e.key === 'Enter' && handleSend(),
+                            placeholder: 'اكتب رسالتك هنا... | Type your message here...',
+                            className: 'flex-1 px-4 py-3 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent transition-all duration-200'
+                        }),
+                        
+                        React.createElement('button', {
+                            onClick: handleSend,
+                            disabled: !inputText.trim(),
+                            className: 'p-3 bg-gradient-to-r from-emerald-500 to-teal-500 text-white rounded-full hover:from-emerald-600 hover:to-teal-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all shadow-md hover:shadow-lg btn-hover'
+                        },
+                            React.createElement(SendIcon)
+                        )
+                    )
+                )
+            );
+        };
+
+        ReactDOM.render(React.createElement(AbsherChat), document.getElementById('root'));
+    </script>
+</body>
+</html>
