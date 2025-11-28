@@ -1,0 +1,530 @@
+[
+  {
+    "page_content": "السؤال: ماذا يهدف برنامج سكني؟\nالجواب: يهدف البرنامج إلى تقديم الحلول السكنية التي تساهم في تحسين نمط الحياة لأهالينا المستفيدين لبناء مجتمع ينعم أفراده بتعدد سبل امتلاك المسكن. للتحقق من حالة الاستحقاق بشكل فوري يرجى استكمال إجراءات الدخول عبر منصة أو تطبيق سكني.\n\nQuestion: What is the goal of the Sakani program?\nAnswer: The program aims to provide housing solutions that contribute to improving the lifestyle of our beneficiaries to build a community where members enjoy multiple ways to own a home. To check eligibility status instantly, please complete the login procedures via the Sakani platform or application.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "أهداف البرنامج / Program Goals",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي الحلول والخدمات المقدمة للمستفيد في سكني؟\nالجواب: يقدم البرنامج حلولاً سكنية تشمل: الشراء من السوق، البناء الذاتي، الأراضي السكنية، وحدات سكنية تحت الإنشاء، ووحدات سكنية جاهزة من الوزارة. يمكن الاطلاع عليها عبر موقع وتطبيق سكني (sakani.sa).\n\nQuestion: What solutions and services are provided to the beneficiary in Sakani?\nAnswer: The program offers housing solutions including: Market Purchase, Self-Construction, Residential Lands, Under-Construction Units, and Ready Units from the Ministry. You can view them through the Sakani website and application (sakani.sa).",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الخدمات والحلول / Services & Solutions",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ماهي الخدمات الإلكترونية التي يقدمها سكني؟\nالجواب: يقدم البرنامج مجموعة من الخدمات الإلكترونية، التي يمكنك الاطلاع عليها في دليل الخدمات من خلال النقر وزيارة رابط الصفحة https://sakani.sa/auth\n\nQuestion: What electronic services does Sakani provide?\nAnswer: The program offers a range of electronic services, which you can view in the Services Guide by clicking and visiting the page link https://sakani.sa/auth",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الخدمات الإلكترونية / E-Services",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: كيف يمكن الحصول على الدعم السكني؟\nالجواب: يتم التسجيل إلكترونياً عبر تطبيق أو منصة سكني عن طريق الاستحقاق الفوري من خلال الرابط التالي: https://sakani.sa/auth. وفي حال ظهرت حالة الاستحقاق (مستحق) فإنه يمكن للمتقدم الاستفادة من أحد منتجات سكني مباشرة.\n\nQuestion: How can I obtain housing support?\nAnswer: Registration is done electronically via the Sakani app or platform through Instant Eligibility at the following link: https://sakani.sa/auth. If the eligibility status appears as (Eligible), the applicant can benefit from one of the Sakani products directly.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "التسجيل والاستحقاق / Registration & Eligibility",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يوجد مدة محددة للدعم السكني بعد التسجيل والاستحقاق؟\nالجواب: لا يوجد مدة محددة للاستفادة، طالما توفرت فيه الشروط المذكورة في التنظيم وهذه اللائحة من تاريخ تقديم الطلب إلى حين تخصيصه.\n\nQuestion: Is there a specific duration for housing support after registration and eligibility?\nAnswer: There is no specific duration for utilization, as long as the conditions mentioned in the regulation and this bylaw are met from the date of submitting the housing support application until its allocation.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "مدة الدعم / Support Duration",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: في حال تغير حال المتقدم بعد تاريخ تقديم الطلب بحيث لم تعد تتوفر في الطلب شروط الدعم؟\nالجواب: يتم إيقاف إجراءات طلب الدعم السكني، وللمتقدم إعادة تفعيل إجراءات الطلب بعد توافر الشروط مرة أخرى.\n\nQuestion: What if the applicant's status changes after the application date so that support conditions are no longer met?\nAnswer: The housing support application procedures are stopped, and the applicant can reactivate the application procedures once the conditions are met again.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "تغير الحالة / Status Change",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما آلية التقديم لمنسوبي الضمان الاجتماعي في سكني؟\nالجواب: يجب استكمال عملية التسجيل في منصة سكني. وفي حال تبين أن الطلب يخص حالة مدرجة ضمن قوائم وزارة الموارد البشرية والتنمية الاجتماعية ومستحق، يتم تحويل الطلب تلقائياً على الإسكان التنموي حسب الأشد حاجة أولاً بأول.\n\nQuestion: What is the application mechanism for Social Security beneficiaries in Sakani?\nAnswer: The registration process must be completed on the Sakani platform. If it turns out that the application belongs to a case listed in the Ministry of Human Resources and Social Development lists and is eligible, the application is automatically transferred to Developmental Housing according to the most needy basis.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الضمان والإسكان التنموي / Social Security & Developmental Housing",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يجب أن يكون المتقدم للحصول على \"الدعم السكني\" سعودي الجنسية؟\nالجواب: نعم، يجب أن يكون المتقدم سعودي الجنسية وقت تقديم طلب الدعم السكني.\n\nQuestion: Must the applicant for \"Housing Support\" be a Saudi national?\nAnswer: Yes, the applicant must be a Saudi national at the time of submitting the housing support application.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "شروط الجنسية / Nationality Condition",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يحق للمتقدم اختيار أكثر من منتج خلال فترة التقديم؟\nالجواب: يحق للمتقدم اختيار منتج واحد فقط خلال فترة التقديم.\n\nQuestion: Is the applicant entitled to choose more than one product during the application period?\nAnswer: The applicant is entitled to choose only one product during the application period.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "اختيار المنتجات / Product Selection",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "قنوات التواصل مع سكني:\n- مركز العناية بالمستفيدين: 199090 (8ص - 8م، الأحد - الخميس).\n- تويتر: @saudihousingcc (24/7).\n- واتساب الأعمال: 966114199090 (8 - 8، الأحد - الخميس).\n- البريد الإلكتروني: infoCS@momrah.gov.sa\n\nSakani Contact Channels:\n- Beneficiary Care Center: 199090 (8 AM - 8 PM, Sun - Thu).\n- Twitter: @saudihousingcc (24/7).\n- WhatsApp Business: 966114199090 (8 - 8, Sun - Thu).\n- Email: infoCS@momrah.gov.sa",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "التواصل / Contact Info",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يحق لي الاستفادة من الصندوق العقاري ودعم وزارة البلديات والإسكان في آنٍ واحد؟\nالجواب: لا يحق ذلك، الاستفادة تكون واحدة إما من وزارة البلديات والإسكان أو صندوق التنمية العقارية.\n\nQuestion: Am I entitled to benefit from the Real Estate Development Fund and the Ministry of Municipalities and Housing support at the same time?\nAnswer: No, you are not entitled to that. The benefit must be from either the Ministry of Municipalities and Housing OR the Real Estate Development Fund.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الازدواجية / Double Dipping",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل بالإمكان عمل تنازل عن الاستحقاق لأحد أفراد الأسرة؟\nالجواب: التنازل عن الاستحقاق للدعم السكني يكون فقط بين الزوجين.\n\nQuestion: Is it possible to waive eligibility to a family member?\nAnswer: Waiving eligibility for housing support is only permitted between spouses.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "التنازل / Waiver",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يستطيع المواطن التقديم إذا سبق له الاستفادة من دعم سكني حكومي أو خاص لغرض التملك؟\nالجواب: لا؛ لا يستطيع.\n\nQuestion: Can a citizen apply if they have previously benefited from government or private housing support for ownership purposes?\nAnswer: No; they cannot.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الاستفادة السابقة / Previous Benefit",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يحق للزوج والزوجة الاستفادة من منتجات سكني في آنٍ واحد؟\nالجواب: يمكن الاستفادة من الدعم المقدم من وزارة البلديات والإسكان لمتقدم واحد فقط من أفراد الأسرة.\n\nQuestion: Are husband and wife entitled to benefit from Sakani products at the same time?\nAnswer: Only one applicant from the family members can benefit from the support provided by the Ministry of Municipalities and Housing.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الأسرة / Family Benefit",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يحق للمواطن التقديم في حال توفر منزل ملائم لديه أو لدى أحد أفراد أسرته؟\nالجواب: إذا كان المنزل المملوك ملائماً (أي مسلح وصالح للسكن) فلا يستطيع الاستفادة من الدعم السكني.\n\nQuestion: Is a citizen entitled to apply if they or one of their family members have a suitable home?\nAnswer: If the owned house is suitable (i.e., concrete and habitable), they cannot benefit from housing support.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "امتلاك منزل / Home Ownership",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يحق للمواطن التقديم إذا كان غير موظف ولديه أعمال حرة؟\nالجواب: نعم، بإمكانه التقديم إذا انطبقت عليه شروط اللائحة. يُحدد الدخل بناءً على التدفقات النقدية للمستفيد أو صافي الدخل ومن ثم تُقسم بشكل شهري لتطبيق المصفوفة وحاسبة الدعم.\n\nQuestion: Is a citizen entitled to apply if they are unemployed but have freelance work?\nAnswer: Yes, they can apply if the regulation conditions apply to them. Income is determined based on the beneficiary's cash flows or net income, then divided monthly to apply the matrix and support calculator.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "العمل الحر / Freelance Work",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما المقصود بشراء الوحدات الجاهزة؟\nالجواب: هي خيار سكني يمكّن المستفيد من شراء وحدة سكنية جاهزة من السوق (فيلا، شقة، تاون هاوس) أو من مشاريع الوزارة الجاهزة، مع الحصول على قرض عقاري مدعوم الأرباح.\n\nQuestion: What is meant by purchasing Ready Units?\nAnswer: It is a housing option that enables the beneficiary to buy a ready-made residential unit from the market (Villa, Apartment, Townhouse) or from the Ministry's ready projects, with a subsidized real estate loan.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الوحدات الجاهزة / Ready Units",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يوجد عمر محدد للوحدة السكنية عند الاستفادة من شراء منتج وحدة جاهزة من السوق؟\nالجواب: لا يوجد عمر محدد، ويتم تحديد عمر الوحدة السكنية بالاتفاق بين المستفيد والجهة الممولة له.\n\nQuestion: Is there a specific age limit for the residential unit when benefiting from the Ready Unit product from the market?\nAnswer: There is no specific age limit; the age of the residential unit is determined by agreement between the beneficiary and their financier.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "عمر العقار / Property Age",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل بالإمكان شراء منزل مرهون للصندوق العقاري بدعم من الوزارة؟\nالجواب: لا مانع، ولكن لابد أن يدفع البنك كامل المبلغ للصندوق ويتم فك الرهن، حيث لا يمكن أن يكون هناك رهنين على نفس المنزل.\n\nQuestion: Is it possible to buy a house mortgaged to the Real Estate Development Fund with support from the Ministry?\nAnswer: There is no objection, but the bank must pay the full amount to the Fund and release the mortgage, as there cannot be two mortgages on the same house.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "رهن العقار / Property Mortgage",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما المقصود بمنتج البناء الذاتي؟\nالجواب: يهدف لتمكين المواطنين الذين يملكون أراضي سكنية من تملك المنزل. يتكون من 4 خدمات: الأراضي، التصاميم، المقاولين، والإشراف الهندسي. ويشمل الحصول على قرض عقاري مدعوم الأرباح.\n\nQuestion: What is meant by the Self-Construction product?\nAnswer: It aims to enable citizens who own residential lands to own a home. It consists of 4 services: Lands, Designs, Contractors, and Engineering Supervision. It includes obtaining a subsidized real estate loan.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "البناء الذاتي / Self-Construction",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل بالإمكان الاستفادة من البناء الذاتي على أرض مرهونة للبنك؟\nالجواب: تعتمد الإمكانية على موافقة الجهة التمويلية على زيادة مبلغ التمويل بعد شراء الأرض للمستفيد.\n\nQuestion: Is it possible to benefit from Self-Construction on land mortgaged to the bank?\nAnswer: The possibility depends on the financing entity's approval to increase the financing amount after purchasing the land for the beneficiary.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "أرض مرهونة / Mortgaged Land",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: في حال كان صك الأرض \"صك سكني تجاري\" هل بالإمكان الاستفادة عليها من البناء الذاتي؟\nالجواب: لا، لا يستطيع الاستفادة عليها من البناء الذاتي.\n\nQuestion: If the land deed is \"Residential Commercial\", can I benefit from Self-Construction on it?\nAnswer: No, you cannot benefit from Self-Construction on it.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "نوع الصك / Deed Type",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما المقصود بمنتج الوحدات تحت الإنشاء؟\nالجواب: هو بيع الوحدات السكنية قبل أو أثناء مرحلة التطوير (فيلا، شقة، تاون هاوس) من خلال مقاولين معتمدين، مع التزام المطور بالتنفيذ وفق التصاميم المتفق عليها.\n\nQuestion: What is meant by the Under-Construction Units product?\nAnswer: It is the sale of residential units before or during the development phase (Villa, Apartment, Townhouse) through approved contractors, with the developer committed to execution according to agreed designs.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "تحت الإنشاء / Under Construction",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما المدة الزمنية لظهور حالة الاستحقاق بعد التسجيل؟\nالجواب: ستظهر حالة الاستحقاق لدى المستفيد بشكل فوري.\n\nQuestion: How long does it take for eligibility status to appear after registration?\nAnswer: The eligibility status will appear to the beneficiary instantly.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "مدة الاستحقاق / Eligibility Time",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: كيف يتم تعديل عدد افراد الأسرة في سكني؟\nالجواب: لا حاجة لتعديل عدد أفراد الأسرة عن طريق منصة سكني، ويتم الاعتماد عند تقديم طلب لدى الجهة الممولة على عدد أفراد الإسكان في بطاقة العائلة.\n\nQuestion: How do I modify the number of family members in Sakani?\nAnswer: There is no need to modify the number of family members via the Sakani platform. The number of family members in the Family Card is relied upon when applying to the financing entity.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "تعديل الأسرة / Family Modification",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يمكن للمستفيد الأول من الصندوق العقاري الاستفادة من دعم وزارة البلديات والإسكان؟\nالجواب: لا، لا يمكنه الاستفادة.\n\nQuestion: Can the first beneficiary of the Real Estate Development Fund benefit from the Ministry of Municipalities and Housing support?\nAnswer: No, they cannot benefit.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "الاستفادة المزدوجة / Dual Benefit",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "المستشار العقاري:\nهو أحد الحلول المقدمة لتسهيل امتلاك المسكن للمستفيد وذلك من خلال تقديم دعم مالي غير مسترد بمبلغ ثابت 100 أو 150 ألف ريال حسب مصفوفة المنتجات المعتمدة.\n\nReal Estate Advisor:\nOne of the solutions provided to facilitate home ownership for the beneficiary by providing non-refundable financial support of a fixed amount of 100 or 150 thousand Riyals according to the approved product matrix.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "المستشار العقاري / Real Estate Advisor",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "خيارات برنامج الدعم السكني المحدث:\n1. شراء وحدة سكنية جاهزة: دعم مالي غير مسترد (100-150 ألف ريال).\n2. تمويل البناء الذاتي: استلام التمويل دفعات، فترة بناء 36 شهر، قسط مخفض أثناء البناء، ودعم مالي غير مسترد (100-150 ألف ريال).\n3. وحدات تحت الإنشاء: قسط مخفض أثناء البناء، ودعم مالي غير مسترد (100-150 ألف ريال).\n\nUpdated Housing Support Program Options:\n1. Ready Unit Purchase: Non-refundable financial support (100-150k SAR).\n2. Self-Construction Finance: Funds in installments, 36-month construction period, reduced installment during construction, non-refundable support (100-150k SAR).\n3. Under-Construction Units: Reduced installment during construction, non-refundable support (100-150k SAR).",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "خيارات الدعم / Support Options",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "باقات الدعم السكني المحدث:\n1. باقة دعم الدفعة المقدمة (100-150 ألف ريال).\n2. باقة دعم تجديد المنازل.\n3. باقة دعم الأثاث.\n4. باقة دعم الإيجار.\n5. باقة دعم البناء الذاتي.\n\nUpdated Housing Support Packages:\n1. Down Payment Support Package (100-150k SAR).\n2. Home Renovation Support Package.\n3. Furniture Support Package.\n4. Rent Support Package.\n5. Self-Construction Support Package.",
+    "metadata": {
+      "category": "سكني / Sakani",
+      "topic": "باقات الدعم / Support Packages",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي جميع البيانات والمستندات الأساسية لإكمال طلب التقديم في الضمان الاجتماعي (الملف الموحد)؟\nالجواب: يجب الإفصاح عن: 1. الحساب البنكي وبيانات الوالدين. 2. بيانات الإعاقة (إن وجدت). 3. الإفصاح الشامل عن الدخل (الشهري، الدعم الحكومي، المشاريع، العقارات). 4. التعليم والعمالة والتراخيص. 5. الممتلكات (عقارات، مركبات) والتابعين.\n\nQuestion: What are all the basic data and documents required to complete the Social Security application (Unified File)?\nAnswer: You must disclose: 1. Bank account and parents' data. 2. Disability data (if any). 3. Comprehensive income disclosure (Monthly, Government Support, Projects, Real Estate). 4. Education, Labor, and Licenses. 5. Assets (Real Estate, Vehicles) and Dependents.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "الملف الموحد / Unified File",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل هناك أي شروط متعلقة بالإقامة خارج المملكة للضمان الاجتماعي؟\nالجواب: نعم. يُسأل عما إذا كنت أنت أو أحد من تعيلهم قد أقمتم خارج المملكة لمدة تزيد عن 365 يومًا خلال السنوات الخمس الماضية. يجب تحديد السبب (عمل حكومي، دراسة، تدريب، علاج).\n\nQuestion: Are there any conditions regarding residency outside the Kingdom for Social Security?\nAnswer: Yes. You are asked if you or any of your dependents have resided outside the Kingdom for more than 365 days during the past five years. The reason must be specified (government work, study, training, treatment).",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "الإقامة / Residency",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هو الحد الأقصى المسموح به للأصول المالية عند التقديم للضمان؟\nالجواب: يُسأل عما إذا كان لديك أو لدى عائلتك أصول مالية تزيد عن خمسة ملايين ريال سعودي. إذا تجاوزت هذا المبلغ، قد يؤثر على الأهلية.\n\nQuestion: What is the maximum allowed financial assets when applying for Social Security?\nAnswer: You are asked if you or your family have financial assets exceeding five million Saudi Riyals. Exceeding this amount may affect eligibility.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "الأصول المالية / Financial Assets",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل تؤثر ملكية المنزل سابقاً على أهليتي في الضمان؟\nالجواب: نعم. يُطلب الإفصاح عما إذا كنت أنت أو أحد من تعولهم قد امتلك سند ملكية منزل خلال العام الماضي.\n\nQuestion: Does previous home ownership affect my eligibility in Social Security?\nAnswer: Yes. You are required to disclose if you or any of your dependents have owned a home title deed during the past year.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "ملكية المنزل / Home Ownership",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي البيانات الإلزامية المطلوبة لتأكيد معلومات السكن والعائلة في الضمان؟\nالجواب: يجب تأكيد وإدخال معلومات السكن الحالية والمفضلة (المنطقة والمدينة)، وتحديد حالة السكن. بالنسبة للعائلة، يجب تسجيل رقم وتاريخ ميلاد كل من الأب والأم.\n\nQuestion: What mandatory data is required to confirm housing and family information in Social Security?\nAnswer: You must confirm and enter current and preferred housing information (Region and City) and specify housing status. For the family, the ID number and date of birth for both the father and mother must be registered.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "بيانات السكن والعائلة / Housing & Family Data",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "التمكين في الضمان الاجتماعي:\nيعني تأهيل وتمكين مستفيدي الضمان القابلين للتأهيل والقادرين على العمل للاندماج في سوق العمل والاستقلال المادي. مسارات التمكين: 1. مسار التدريب والتأهيل. 2. مسار التوظيف. 3. تمكين الأعمال (المشاريع الريادية).\n\nEmpowerment (Tamkeen) in Social Security:\nMeans qualifying and empowering employable Social Security beneficiaries to integrate into the labor market and achieve financial independence. Empowerment Tracks: 1. Training and Qualification Track. 2. Employment Track. 3. Business Empowerment (Entrepreneurial Projects).",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "التمكين / Empowerment",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي تصنيفات المستفيدين من الضمان الاجتماعي؟\nالجواب: 1. مستفيد قابل للتأهيل. 2. مستفيد غير قابل للتأهيل. 3. مستفيد قادر على العمل. يتم التصنيف بناءً على الحالة الصحية والبدنية والاجتماعية.\n\nQuestion: What are the classifications of Social Security beneficiaries?\nAnswer: 1. Trainable beneficiary. 2. Non-trainable beneficiary. 3. Capable of work beneficiary. Classification is based on health, physical, and social status.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "تصنيف المستفيدين / Beneficiary Classification",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: كيف أعرف تصنيفي في الضمان الاجتماعي وهل يمكنني تعديله؟\nالجواب: يتم وضع تصنيف أولي بناءً على البيانات المدخلة. يمكن للمستفيد طلب تصحيح التصنيف عبر منصة الدعم والحماية الاجتماعية (https://sbis.hrsd.gov.sa) مع إرفاق المستندات.\n\nQuestion: How do I know my classification in Social Security and can I modify it?\nAnswer: An initial classification is set based on entered data. The beneficiary can request a classification correction via the Social Support and Protection Platform (https://sbis.hrsd.gov.sa) with attached documents.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "تعديل التصنيف / Modify Classification",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: من هم الفئات المستثناة من التمكين في الضمان؟\nالجواب: 1. المستفيد غير القابل للتأهيل. 2. الطالب المتفرغ للدراسة (18-25 سنة). 3. من يقدم رعاية لأحد أفراد الأسرة المحتاجين (أطفال، كبار سن، مرضى، ذوي إعاقة).\n\nQuestion: Who are the categories excluded from Empowerment in Social Security?\nAnswer: 1. Non-trainable beneficiary. 2. Full-time student (18-25 years). 3. Caregivers for needy family members (children, elderly, sick, disabled).",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "الفئات المستثناة / Excluded Categories",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يحق لي رفض فرص التمكين لرغبتي بمعاش الضمان الاجتماعي؟\nالجواب: لا، إذا تم تصنيفك كقادر على العمل أو قابل للتأهيل، فإن التمكين إلزامي في نظام الضمان الاجتماعي.\n\nQuestion: Can I refuse empowerment opportunities because I want the Social Security pension?\nAnswer: No, if you are classified as Capable of Work or Trainable, empowerment is mandatory in the Social Security system.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "الزامية التمكين / Mandatory Empowerment",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي معايير الجدية في التمكين؟\nالجواب: الاستجابة لتواصل الصندوق، التسجيل في المنصة، التقديم على الفرص المناسبة، عدم التخلف عن المقابلات (أكثر من 3 مرات)، وعدم رفض عروض العمل المناسبة (أكثر من 3 مرات).\n\nQuestion: What are the seriousness criteria in Empowerment?\nAnswer: Responding to the Fund's communication, registering on the platform, applying for suitable opportunities, not missing interviews (more than 3 times), and not rejecting suitable job offers (more than 3 times).",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "معايير الجدية / Seriousness Criteria",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي شروط العمل المناسب (حقوق الباحث عن عمل) في التمكين؟\nالجواب: الأجر لا يقل عن 3000 ريال (ثانوية فأقل) أو 4000 ريال (دبلوم فأعلى)، المسافة لا تزيد عن 80 كم، تناسب العمل مع بيئة عمل المرأة، وملاءمة المؤهل.\n\nQuestion: What are the conditions for Suitable Work (Job seeker rights) in Empowerment?\nAnswer: Wage not less than 3000 SAR (High school or less) or 4000 SAR (Diploma or higher), distance not exceeding 80 km, compatibility with women's work environment, and qualification appropriateness.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "العمل المناسب / Suitable Work",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: عند حصولي على عمل، هل يلزمني التبليغ في الضمان؟\nالجواب: نعم، يجب تحديث البيانات الاقتصادية خلال 15 يوماً من تاريخ التغيير.\n\nQuestion: When I get a job, do I need to report it to Social Security?\nAnswer: Yes, economic data must be updated within 15 days of the change date.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "التبليغ عن عمل / Reporting Job",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما الذي يحدث عند عدم الالتزام بمتطلبات التمكين؟\nالجواب: عدم الالتزام يعرضك للمساءلة والعقوبات بحسب النظام واللائحة.\n\nQuestion: What happens if I don't comply with Empowerment requirements?\nAnswer: Non-compliance exposes you to accountability and penalties according to the law and regulations.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "العقوبات / Penalties",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يلزمني قبول وظيفة أقل من مؤهلي أو بعيدة جداً؟\nالجواب: لا يلزمك القبول إذا كان العرض لا يلائم المؤهل (دبلوم فأعلى) أو إذا كانت المسافة تزيد عن 80 كم (إلا بموافقتك).\n\nQuestion: Do I have to accept a job below my qualification or very far away?\nAnswer: You are not required to accept if the offer does not match the qualification (Diploma or higher) or if the distance exceeds 80 km (unless you agree).",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "رفض الوظيفة / Refusing Job",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل التسجيل في منصة 'جدارات' إلزامي للحصول على الدعم؟\nالجواب: نعم، التسجيل في 'جدارات' متطلب أساسي لرب الأسرة والتابعين. الفئات المستثناة: الموظفون، الطلاب، النساء المعيلات لأطفال (12 سنة فأقل)، كبار السن (فوق 43)، الأطفال (دون 18)، وذوي الإعاقة الشديدة.\n\nQuestion: Is registration in 'Jadarat' platform mandatory to get support?\nAnswer: Yes, registration in 'Jadarat' is a basic requirement for the head of household and dependents. Exempt categories: Employees, Students, Women supporting children (12 years or less), Elderly (over 43), Children (under 18), and Severe Disability.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "جدارات / Jadarat",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي أنواع الدخل التي يجب الإفصاح عنها في الضمان؟\nالجواب: 1. الدخل الشهري (أجور، بدلات). 2. الدعم الحكومي. 3. أرباح المشاريع الخاصة. 4. إيرادات العقارات والأصول. 5. أرباح الأعمال الحرة. 6. الحوالات الدائمة.\n\nQuestion: What types of income must be disclosed in Social Security?\nAnswer: 1. Monthly income (wages, allowances). 2. Government support. 3. Private project profits. 4. Real estate and asset revenues. 5. Freelance profits. 6. Permanent transfers.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "الإفصاح عن الدخل / Income Disclosure",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي بيانات التعليم المطلوبة في الضمان؟\nالجواب: المؤهل التعليمي الأخير والحالة الدراسية الحالية (مستمر أم لا).\n\nQuestion: What education data is required in Social Security?\nAnswer: The last educational qualification and current study status (continuing or not).",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "بيانات التعليم / Education Data",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي أنواع العمالة التي يجب الإفصاح عنها في الضمان؟\nالجواب: 1. العمالة الطبية (تمريض، مساعدين). 2. العمالة المهنية (تجارة، كهرباء). 3. العمالة المنزلية (سائق، خادمة).\n\nQuestion: What types of labor must be disclosed in Social Security?\nAnswer: 1. Medical labor (nursing, assistants). 2. Professional labor (trade, electrical). 3. Domestic labor (driver, maid).",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "العمالة / Labor",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي التراخيص التي يجب الإفصاح عنها في الضمان؟\nالجواب: التراخيص التجارية، مزاولة المهنة، المتجر الإلكتروني، تصاريح النقل، الاتصالات، المحاماة، والعمل الحر.\n\nQuestion: What licenses must be disclosed in Social Security?\nAnswer: Commercial licenses, professional practice, e-store, transport permits, telecom, law practice, and freelance work.",
+    "metadata": {
+      "category": "الضمان الاجتماعي / Social Security",
+      "topic": "التراخيص / Licenses",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي أهداف برنامج حساب المواطن؟\nالجواب: تخفيف أثر الإصلاحات الاقتصادية على ذوي الدخل المنخفض، رفع كفاءة الدعم الحكومي وتوجيهه للمستحقين، وتشجيع ترشيد الاستهلاك لمنتجات الطاقة والمياه.\n\nQuestion: What are the goals of the Citizen Account Program?\nAnswer: Mitigating the impact of economic reforms on low-income individuals, raising the efficiency of government support and directing it to those eligible, and encouraging rational consumption of energy and water products.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "أهداف البرنامج / Program Goals",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل سيستمر استقبال الطلبات على التسجيل في حساب المواطن؟\nالجواب: نعم، التسجيل متاح عبر البوابة الإلكترونية (ca.gov.sa).\n\nQuestion: Will applications for registration in Citizen Account continue to be accepted?\nAnswer: Yes, registration is available via the electronic portal (ca.gov.sa).",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "التسجيل / Registration",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ماذا تعني حالة الدفعة \"بانتظار الصرف\" في حساب المواطن؟\nالجواب: تعني أن الدفعة معلقة إما بسبب تغيير الآيبان البنكي (جاري التحقق)، أو أن الآيبان صالح ولكن المستفيد لم يضغط على أيقونة \"تأكيد الآيبان البنكي\".\n\nQuestion: What does payment status \"Waiting for Disbursement\" mean in Citizen Account?\nAnswer: It means the payment is suspended either due to changing the Bank IBAN (verification in progress), or the IBAN is valid but the beneficiary did not click on \"Confirm Bank IBAN\" icon.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "حالة الدفعة / Payment Status",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ما هي الأصول القابلة للتقييم في حساب المواطن؟\nالجواب: 1. العقارات. 2. المركبات. 3. النقود. 4. المحافظ الاستثمارية. 5. مؤشر عدد العمالة المنزلية.\n\nQuestion: What are the assessable assets in Citizen Account?\nAnswer: 1. Real Estate. 2. Vehicles. 3. Cash. 4. Investment Portfolios. 5. Domestic Workers Count Indicator.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "الأصول / Assets",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يتم تعويض المستفيد عند ارتفاع أسعار منتجات الطاقة؟\nالجواب: نعم يتم التعويض عن أسعار منتجات الطاقة بما لا يتجاوز مقدار الاستحقاق الأساسي المحدد في الدورة (28) من شهر مارس لعام 2020.\n\nQuestion: Is the beneficiary compensated when energy product prices rise?\nAnswer: Yes, compensation is provided for energy product prices not exceeding the basic entitlement amount determined in Cycle (28) of March 2020.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "التعويض / Compensation",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: كيف أحدث معلوماتي في حساب المواطن؟\nالجواب: عبر الدخول للبوابة ثم الذهاب لتبويب \"ملف المستفيد\".\n\nQuestion: How do I update my information in Citizen Account?\nAnswer: By logging into the portal and then going to the \"Beneficiary File\" tab.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "تحديث المعلومات / Update Info",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: كيف يتم تحديد موعد الزيارات للأفراد المستقلين في حساب المواطن؟\nالجواب: سيتم التواصل لتحديد موعد الزيارة الافتراضية من خلال الأرقام: 8005000006 أو 920031455.\n\nQuestion: How is the visit appointment scheduled for independent individuals in Citizen Account?\nAnswer: You will be contacted to schedule the virtual visit via numbers: 8005000006 or 920031455.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "الزيارة الميدانية / Field Visit",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل الحد الأعلى للدعم متساوي لجميع الأسر في حساب المواطن؟\nالجواب: تختلف قيمة الدعم ما بين الأسر بناء على عدد وأعمار أفراد الأسر وإجمالي دخلها. يمكن التحقق من خلال الحاسبة التقديرية (Portal.ca.gov.sa).\n\nQuestion: Is the maximum support limit equal for all families in Citizen Account?\nAnswer: Support value varies between families based on the number and ages of family members and total income. You can check via the estimated calculator (Portal.ca.gov.sa).",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "حد الدعم / Support Limit",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل موعد وتاريخ الدفع من كل شهر محدد في حساب المواطن؟\nالجواب: نعم سيكون موعد دفع الدعم في تاريخ 10 ميلادي من كل شهر. إذا وافق الجمعة يكون الخميس، وإذا وافق السبت يكون الأحد.\n\nQuestion: Is the payment date specific every month in Citizen Account?\nAnswer: Yes, the support payment date will be on the 10th of every Gregorian month. If it falls on Friday, it will be Thursday; if Saturday, it will be Sunday.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "موعد الصرف / Payment Date",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ماذا تعني حالة الدفعة \"لا يوجد\" في حساب المواطن؟\nالجواب: تعني أن إجمالي الدخل أكبر من الحد المانع من الدعم واستحقاقه صفر.\n\nQuestion: What does payment status \"None\" mean in Citizen Account?\nAnswer: It means the total income is greater than the support prevention limit, and entitlement is zero.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "حالة الدفعة لا يوجد / Status None",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يحسب حد القدرة المالية ضمن الدخل الشهري؟\nالجواب: لا يحسب حد القدرة المالية ضمن الدخل الشهري للمستفيد وإنما يتم قياسها بشكل منفصل وقد تؤثر على الأهلية.\n\nQuestion: Is the financial ability limit calculated within the monthly income?\nAnswer: The financial ability limit is not calculated within the beneficiary's monthly income, but is measured separately and may affect eligibility.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "القدرة المالية / Financial Ability",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يجب تحديث البيانات بشكل دوري في حساب المواطن؟\nالجواب: نعم، يجب تحديث البيانات خلال مدة لا تتجاوز 15 يوماً من تاريخ حدوث أي تغيير يؤثر على الأهلية والاستحقاق.\n\nQuestion: Must data be updated periodically in Citizen Account?\nAnswer: Yes, data must be updated within a period not exceeding 15 days from the date of any change affecting eligibility and entitlement.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "تحديث البيانات / Data Update",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: هل يتم احتساب المضافين مع المستفيد الرئيسي للضمان في حساب المواطن أم يجب التسجيل لكل فرد؟\nالجواب: يتم إلحاق مستفيدي الضمان والتابعين لهم كأسرة وليس كأفراد كما هم مسجلين في الضمان. يمكن لرب الأسرة إضافة تابعين آخرين غير مشمولين في الضمان إذا انطبقت عليهم الشروط.\n\nQuestion: Are those added with the main Social Security beneficiary calculated in Citizen Account, or must each individual register?\nAnswer: Social Security beneficiaries and their dependents are attached as a family, not as individuals, as registered in Social Security. The head of the family can add other dependents not included in Social Security if conditions apply.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "مستفيدي الضمان / Social Security Beneficiaries",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: كم ستكون مدة الدعم الإضافي في حساب المواطن؟\nالجواب: سيستمر الدعم الإضافي حتى نهاية العام 2025م.\n\nQuestion: How long will the additional support last in Citizen Account?\nAnswer: The additional support will continue until the end of the year 2025.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "الدعم الإضافي / Additional Support",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ماذا تعني حالة الدفعة \"مدفوعة\" في حساب المواطن؟\nالجواب: تعني أنه تم إيداع المبلغ للمستفيد على حساب الآيبان المسجل.\n\nQuestion: What does payment status \"Paid\" mean in Citizen Account?\nAnswer: It means the amount has been deposited to the beneficiary in the registered IBAN account.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "حالة الدفعة مدفوعة / Status Paid",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: ماذا تعني الأهلية في حساب المواطن؟ وكيف أتحقق منها؟\nالجواب: الأهلية هي الشروط (الجنسية، الإقامة، تطابق البيانات). للتحقق: ادخل حسابك > دراسة الأهلية. الحالات: مؤهل (انطبقت الشروط)، غير مؤهل (لم تنطبق الشروط).\n\nQuestion: What does Eligibility mean in Citizen Account? And how do I check it?\nAnswer: Eligibility is the conditions (Nationality, Residency, Data Match). To check: Log in > Eligibility Study. Statuses: Eligible (Conditions met), Not Eligible (Conditions not met).",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "الأهلية / Eligibility",
+      "source": "Absher Data.docx"
+    }
+  },
+  {
+    "page_content": "السؤال: كيف أضيف دخل 'ساند' في حساب المواطن؟\nالجواب: الدخول على البوابة الإلكترونية > بيانات عامة > ثم الضغط على أيقونة تعديل لإضافة الدخل.\n\nQuestion: How do I add 'Saned' income in Citizen Account?\nAnswer: Log in to the portal > General Data > Then click the edit icon to add the income.",
+    "metadata": {
+      "category": "حساب المواطن / Citizen Account",
+      "topic": "دخل ساند / Saned Income",
+      "source": "Absher Data.docx"
+    }
+  }
+]
